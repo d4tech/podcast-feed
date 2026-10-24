@@ -1,0 +1,14 @@
+[
+  {
+    "file": "episodes/distributed-denylist.mp3",
+    "title": "Distributed denylist",
+    "description": "System design revision: blocking banned IPs, users and API keys globally at the edge. Requirements and the two asymmetries, high-level design, Bloom filters step by step, the two-tier check and deletes, CIDR ranges and the trie walk, propagation and ordering, consistency and safe change management, scaling, curveballs, trade-offs, and a one-minute arc. 10 chapters.",
+    "date": "2026-10-22T08:55:00+05:30"
+  },
+  {
+    "file": "episodes/topk-ad-recommendations.mp3",
+    "title": "Top-K ad recommendations",
+    "description": "Ranking-led system design revision: disambiguating top-K, the numbers and latency budget, retrieval (targeting index + two-tower), calibrated click prediction, the second-price auction worked through, pacing and frequency caps, the click-aggregation feedback loop (dedup, join, watermarks, effectively-once), trending top-K, curveballs, trade-offs, and a one-minute arc. 12 chapters.",
+    "date": "2026-10-24T09:45:00+05:30"
+  }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>System Design Revision</title>
+    <link>https://d4tech.github.io/podcast-feed/</link>
+    <description>Long-form audio revision for senior and staff system design interviews: requirements, back-of-envelope numbers, deep dives, curveballs and trade-offs, one canonical design per episode.</description>
+    <language>en</language>
+    <itunes:author>Quorum Notes</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Education"/>
+    <itunes:owner>
+      <itunes:name>Quorum Notes</itunes:name>
+      <itunes:email>jostle-split3h@icloud.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://d4tech.github.io/podcast-feed/cover.png"/>
+    <item>
+      <title>Top-K ad recommendations</title>
+      <description>Ranking-led system design revision: disambiguating top-K, the numbers and latency budget, retrieval (targeting index + two-tower), calibrated click prediction, the second-price auction worked through, pacing and frequency caps, the click-aggregation feedback loop (dedup, join, watermarks, effectively-once), trending top-K, curveballs, trade-offs, and a one-minute arc. 12 chapters.</description>
+      <enclosure url="https://d4tech.github.io/podcast-feed/episodes/topk-ad-recommendations.mp3" length="23988239" type="audio/mpeg"/>
+      <guid isPermaLink="false">episodes/topk-ad-recommendations.mp3</guid>
+      <pubDate>Sat, 24 Oct 2026 09:45:00 +0530</pubDate>
+      <itunes:duration>00:24:59</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Distributed denylist</title>
+      <description>System design revision: blocking banned IPs, users and API keys globally at the edge. Requirements and the two asymmetries, high-level design, Bloom filters step by step, the two-tier check and deletes, CIDR ranges and the trie walk, propagation and ordering, consistency and safe change management, scaling, curveballs, trade-offs, and a one-minute arc. 10 chapters.</description>
+      <enclosure url="https://d4tech.github.io/podcast-feed/episodes/distributed-denylist.mp3" length="16762707" type="audio/mpeg"/>
+      <guid isPermaLink="false">episodes/distributed-denylist.mp3</guid>
+      <pubDate>Thu, 22 Oct 2026 08:55:00 +0530</pubDate>
+      <itunes:duration>00:17:27</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
