@@ -10,5 +10,11 @@
     "title": "Top-K ad recommendations",
     "description": "Ranking-led system design revision: disambiguating top-K, the numbers and latency budget, retrieval (targeting index + two-tower), calibrated click prediction, the second-price auction worked through, pacing and frequency caps, the click-aggregation feedback loop (dedup, join, watermarks, effectively-once), trending top-K, curveballs, trade-offs, and a one-minute arc. 12 chapters.",
     "date": "2026-10-24T09:45:00+05:30"
+  },
+  {
+    "file": "episodes/ad-click-aggregation-exactly-once.mp3",
+    "title": "Ad click aggregation, exactly-once",
+    "description": "Exactly-once counting for money in an ad click and impression pipeline. It opens with three consumers (billing, pacing, trending), the numbers, and the campaign, ad, impression and click IDs, then the high-level design. The deep dives cover deduplication with keyed state; event time, watermarks, late data and watermark stalls from idle or slow partitions; the click-to-impression join with its RocksDB impression buffer; what emit means; a consensus-backed click ID registry and why it needs Paxos or Raft; registry expiry and its trap; RocksDB checkpoints with Kafka offsets; the four ingredients of effectively-once and the idempotent sink; the three rollup tables and why click-through rate is derived, never stored; columnar versioned serving and pacing; and the raw archive with nightly reconciliation. It closes with trending, scaling, curveballs, trade-offs and a one-minute recall arc. 17 chapters.",
+    "date": "2026-11-03T15:55:41+05:30"
   }
 ]

@@ -16,6 +16,16 @@
     </itunes:owner>
     <itunes:image href="https://d4tech.github.io/podcast-feed/cover.png"/>
     <item>
+      <title>Ad click aggregation, exactly-once</title>
+      <description>Exactly-once counting for money in an ad click and impression pipeline. It opens with three consumers (billing, pacing, trending), the numbers, and the campaign, ad, impression and click IDs, then the high-level design. The deep dives cover deduplication with keyed state; event time, watermarks, late data and watermark stalls from idle or slow partitions; the click-to-impression join with its RocksDB impression buffer; what emit means; a consensus-backed click ID registry and why it needs Paxos or Raft; registry expiry and its trap; RocksDB checkpoints with Kafka offsets; the four ingredients of effectively-once and the idempotent sink; the three rollup tables and why click-through rate is derived, never stored; columnar versioned serving and pacing; and the raw archive with nightly reconciliation. It closes with trending, scaling, curveballs, trade-offs and a one-minute recall arc. 17 chapters.</description>
+      <enclosure url="https://d4tech.github.io/podcast-feed/episodes/ad-click-aggregation-exactly-once.mp3" length="36407904" type="audio/mpeg"/>
+      <guid isPermaLink="false">episodes/ad-click-aggregation-exactly-once.mp3</guid>
+      <pubDate>Tue, 03 Nov 2026 15:55:41 +0530</pubDate>
+      <itunes:duration>00:37:55</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Top-K ad recommendations</title>
       <description>Ranking-led system design revision: disambiguating top-K, the numbers and latency budget, retrieval (targeting index + two-tower), calibrated click prediction, the second-price auction worked through, pacing and frequency caps, the click-aggregation feedback loop (dedup, join, watermarks, effectively-once), trending top-K, curveballs, trade-offs, and a one-minute arc. 12 chapters.</description>
       <enclosure url="https://d4tech.github.io/podcast-feed/episodes/topk-ad-recommendations.mp3" length="23988239" type="audio/mpeg"/>
