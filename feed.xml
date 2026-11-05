@@ -16,6 +16,16 @@
     </itunes:owner>
     <itunes:image href="https://d4tech.github.io/podcast-feed/cover.png"/>
     <item>
+      <title>Ad click aggregation: the 7 recall gaps</title>
+      <description>A short revision episode on the seven things a from-memory redraw of the ad-click aggregation design missed: the partition key, the reversed join, when the click-ID registry is written, what closes a window, why the sink is an upsert, the missing boxes, and the rollup shape.</description>
+      <enclosure url="https://d4tech.github.io/podcast-feed/episodes/adclick-recall-gaps-2026-11-05.mp3" length="16720598" type="audio/mpeg"/>
+      <guid isPermaLink="false">episodes/adclick-recall-gaps-2026-11-05.mp3</guid>
+      <pubDate>Thu, 05 Nov 2026 16:24:40 +0530</pubDate>
+      <itunes:duration>00:17:24</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Ad click aggregation, exactly-once</title>
       <description>Exactly-once counting for money in an ad click and impression pipeline. It opens with three consumers (billing, pacing, trending), the numbers, and the campaign, ad, impression and click IDs, then the high-level design. The deep dives cover deduplication with keyed state; event time, watermarks, late data and watermark stalls from idle or slow partitions; the click-to-impression join with its RocksDB impression buffer; what emit means; a consensus-backed click ID registry and why it needs Paxos or Raft; registry expiry and its trap; RocksDB checkpoints with Kafka offsets; the four ingredients of effectively-once and the idempotent sink; the three rollup tables and why click-through rate is derived, never stored; columnar versioned serving and pacing; and the raw archive with nightly reconciliation. It closes with trending, scaling, curveballs, trade-offs and a one-minute recall arc. 17 chapters.</description>
       <enclosure url="https://d4tech.github.io/podcast-feed/episodes/ad-click-aggregation-exactly-once.mp3" length="36407904" type="audio/mpeg"/>

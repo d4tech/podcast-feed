@@ -16,5 +16,11 @@
     "title": "Ad click aggregation, exactly-once",
     "description": "Exactly-once counting for money in an ad click and impression pipeline. It opens with three consumers (billing, pacing, trending), the numbers, and the campaign, ad, impression and click IDs, then the high-level design. The deep dives cover deduplication with keyed state; event time, watermarks, late data and watermark stalls from idle or slow partitions; the click-to-impression join with its RocksDB impression buffer; what emit means; a consensus-backed click ID registry and why it needs Paxos or Raft; registry expiry and its trap; RocksDB checkpoints with Kafka offsets; the four ingredients of effectively-once and the idempotent sink; the three rollup tables and why click-through rate is derived, never stored; columnar versioned serving and pacing; and the raw archive with nightly reconciliation. It closes with trending, scaling, curveballs, trade-offs and a one-minute recall arc. 17 chapters.",
     "date": "2026-11-03T15:55:41+05:30"
+  },
+  {
+    "file": "episodes/adclick-recall-gaps-2026-11-05.mp3",
+    "title": "Ad click aggregation: the 7 recall gaps",
+    "description": "A short revision episode on the seven things a from-memory redraw of the ad-click aggregation design missed: the partition key, the reversed join, when the click-ID registry is written, what closes a window, why the sink is an upsert, the missing boxes, and the rollup shape.",
+    "date": "2026-11-05T16:24:40+05:30"
   }
 ]
