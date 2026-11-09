@@ -16,6 +16,16 @@
     </itunes:owner>
     <itunes:image href="https://d4tech.github.io/podcast-feed/cover.png"/>
     <item>
+      <title>Networking fundamentals: IP addresses, CIDR and prefix matching</title>
+      <description>A two-voice explainer. A host explains and a curious newcomer asks why, with recall pauses where you answer before the host does. It covers why an IP address is really one 32-bit number, then CIDR blocks and how much a slash 32, 24, 16, 8 or 0 holds. Next comes the membership test (AND with the netmask), the octet shortcut, and non-aligned prefixes like a slash 20 or slash 23. It goes through the private, CGNAT and loopback ranges and why banning CGNAT causes collateral damage, then longest prefix match for allow-exceptions, and finally how a binary or Patricia trie stores prefixes and why a hash set can't. Sorted intervals, IPv6 slash-64 bans, where these show up in design rounds, and a lightning-round recap come in an update. 7 chapters.</description>
+      <enclosure url="https://d4tech.github.io/podcast-feed/episodes/networking-fundamentals.mp3" length="16526793" type="audio/mpeg"/>
+      <guid isPermaLink="false">episodes/networking-fundamentals.mp3</guid>
+      <pubDate>Mon, 09 Nov 2026 17:30:28 +0530</pubDate>
+      <itunes:duration>00:17:12</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Ad click aggregation: the 7 recall gaps</title>
       <description>A short revision episode on the seven things a from-memory redraw of the ad-click aggregation design missed: the partition key, the reversed join, when the click-ID registry is written, what closes a window, why the sink is an upsert, the missing boxes, and the rollup shape.</description>
       <enclosure url="https://d4tech.github.io/podcast-feed/episodes/adclick-recall-gaps-2026-11-05.mp3" length="16720598" type="audio/mpeg"/>
