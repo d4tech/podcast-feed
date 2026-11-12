@@ -28,5 +28,11 @@
     "title": "Networking fundamentals: IP addresses, CIDR and prefix matching",
     "description": "A two-voice explainer. A host explains and a curious newcomer asks why, with recall pauses where you answer before the host does. It covers why an IP address is really one 32-bit number, then CIDR blocks and how much a slash 32, 24, 16, 8 or 0 holds. Next comes the membership test (AND with the netmask), the octet shortcut, and non-aligned prefixes like a slash 20 or slash 23. It goes through the private, CGNAT and loopback ranges and why banning CGNAT causes collateral damage, then longest prefix match for allow-exceptions. On the storage side, it shows how a binary or Patricia trie stores prefixes, why a hash set can't, and sorted intervals with binary search as the alternative. It explains why IPv6 bans target a slash 64, then where all of this shows up in system design rounds, and ends with a lightning round and a one-minute recap. 10 chapters.",
     "date": "2026-11-09T17:30:28+05:30"
+  },
+  {
+    "file": "episodes/distributed-cache.mp3",
+    "title": "Distributed cache",
+    "description": "A two-voice system design revision: a host explains and a curious learner asks why, with recall pauses. It opens with a one-sentence framing and the read API, then does the sizing by counting zeros (500 nodes, 20k ops per node, bits to bytes). After the high-level design it sweeps seven areas out loud before going deep: data structures, the write path, the consistency promise, failure modes, safe change, numbers and trade-offs. The deep dives cover fixed hash slots versus mod N and consistent hashing, hash tags, slot migration with ASK and MOVED, delete-on-write and the stale-set race fixed by leases, CDC-driven invalidation, sampled LRU, LFU and W-TinyLFU, majority failover with epochs and fencing, hot keys, XFetch stampede protection, cold starts, curveballs, trade-offs and a one-minute arc. 12 chapters.",
+    "date": "2026-11-12T15:05:03+05:30"
   }
 ]
