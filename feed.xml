@@ -16,6 +16,16 @@
     </itunes:owner>
     <itunes:image href="https://d4tech.github.io/podcast-feed/cover.png"/>
     <item>
+      <title>News / Discover feed ranking</title>
+      <description>A two-voice system design revision: a host explains and a curious learner attempts the recall questions first. It opens with the one-sentence framing and the read API, then the objective (satisfied engagement, not clicks) and the sizing by counting zeros. After the high-level design (pull-based, two-stage funnel) it sweeps seven areas out loud with the mnemonic 'Do We Cache For Speed? Sure, Trade-offs.' before going deep. The deep dives cover five candidate sources and the deadline mixer, story clustering with SimHash and the pigeonhole trick, features and the training-serving skew guard, multi-task ranking with a value formula, calibration and position bias, MMR re-ranking worked through, exploration and propensities, evaluation and safe change, then scaling, failure modes and curveballs, trade-offs, a lightning round and a one-minute arc across the sweep. 13 chapters.</description>
+      <enclosure url="https://d4tech.github.io/podcast-feed/episodes/news-discover-feed-ranking.mp3" length="28152578" type="audio/mpeg"/>
+      <guid isPermaLink="false">episodes/news-discover-feed-ranking.mp3</guid>
+      <pubDate>Sat, 14 Nov 2026 09:03:28 +0530</pubDate>
+      <itunes:duration>00:29:19</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Distributed cache</title>
       <description>A two-voice system design revision: a host explains and a curious learner asks why, with recall pauses. It opens with a one-sentence framing and the read API, then does the sizing by counting zeros (500 nodes, 20k ops per node, bits to bytes). After the high-level design it sweeps seven areas out loud before going deep: data structures, the write path, the consistency promise, failure modes, safe change, numbers and trade-offs. The deep dives cover fixed hash slots versus mod N and consistent hashing, hash tags, slot migration with ASK and MOVED, delete-on-write and the stale-set race fixed by leases, CDC-driven invalidation, sampled LRU, LFU and W-TinyLFU, majority failover with epochs and fencing, hot keys, XFetch stampede protection, cold starts, curveballs, trade-offs and a one-minute arc. 12 chapters.</description>
       <enclosure url="https://d4tech.github.io/podcast-feed/episodes/distributed-cache.mp3" length="26986286" type="audio/mpeg"/>
